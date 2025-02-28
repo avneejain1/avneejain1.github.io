@@ -1,72 +1,99 @@
-<!DOCTYPE html>
+CTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-</head>
     <style>
-  body {
-      font-family: sans-serif;
-      background-color: #f5f5f5;
-      text-align: center;
-      padding: 20px;
-  }
-  h1 {
-      color: #4CAF50;
-  }
-  .container {
-      background: white;
-      padding: 20px;
-      border-radius: 10px;
-      max-width: 600px;
-      margin: auto;
-      border: 2px solid #ddd;
-      box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
-  }
-  ul {
-      list-style: none;
-      padding: 0;
-  }
-  li {
-      margin: 5px 0;
-  }
-  a {
-      text-decoration: none;
-      color: #4CAF50;
-  }
-  img {
-            border: 5px solid #4CAF50;
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffc0cb;
+            text-align: center;
+            padding: 20px;
+        }
+        h1 {
+            color: #d63384;
+            font-size: 36px;
+        }
+        .container {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            max-width: 800px;
+            margin: auto;
+            border: 2px solid #d63384;
+            box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        li {
+            margin: 5px 0;
+            font-size: 18px;
+        }
+        a {
+            text-decoration: none;
+            color: #d63384;
+        }
+        img {
+            border: 5px solid #d63384;
             border-radius: 10px;
             padding: 10px;
             margin: 10px;
             display: block;
             max-width: 100%;
-  }
-    p {
+        }
+        p {
             margin: 15px;
             padding: 10px;
-  }
-</style>
+            font-size: 18px;
+            text-align: left;
+        }
+        .bakes {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+        .bake-item {
+            width: 30%;
+            background: #ffe4e1;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+            margin: 10px;
+        }
+    </style>
+</head>
 <body>
- <h1> Get to know about Avnee Jain</h1>
-   <img src="travelgirl.jpeg" alt="Me traveling" width="500" height="600"></img>
-   <h2>A bit about me:</h2>
-   <p> I am a sophomore here at MSU and I am 19 years old. I like traveling, eating food, and hanging out with friends and family. </p>
-   <h3>Places I want to travel to and why: </h3>
-    <h4>Switzerland</h4>
-    <p> The beauty of nature and seeing how green Switzerland is </p>
-    <h4>Bahamas</h4>
-    <p>Wanting to relax in the sand and swim in the oceans</p>
-    <h4>North Pole</h4>
-    <p>Have been wanting to cross this off my bucket list </p>
-    <h5>Top five places</h5>
-    <ul>
-   <li><a href="https://www.google.com/imgres?q=switzerland&imgurl=https%3A%2F%2Fcdn.britannica.com%2F65%2F162465-050-9CDA9BC9%2FAlps-Switzerland.jpg&imgrefurl=https%3A%2F%2Fwww.britannica.com%2Fplace%2FSwitzerland&docid=ByzT4tQ19K_1VM&tbnid=z0bn8ivNwUjDMM&vet=12ahUKEwjR0731lbqLAxUWrYkEHd9uLs8QM3oECBoQAA..i&w=1600&h=1063&hcb=2&ved=2ahUKEwjR0731lbqLAxUWrYkEHd9uLs8QM3oECBoQAA" >Switzerland</a></li>
-     <li><a href="https://www.google.com/imgres?q=bahamas&imgurl=https%3A%2F%2Fhips.hearstapps.com%2Fhmg-prod%2Fimages%2Fpink-sand-beach-harbour-island-the-bahamas-royalty-free-image-1728315434.jpg%3Fcrop%3D1xw%3A0.59097xh%3Bcenter%2Ctop%26resize%3D1200%3A*&imgrefurl=https%3A%2F%2Fwww.townandcountrymag.com%2Fleisure%2Ftravel-guide%2Fa62173447%2Fharbour-island-bahamas-travel-guide%2F&docid=d9wiQwmUU7AOuM&tbnid=Khy0Zx0HzSxPUM&vet=12ahUKEwis0qmMlrqLAxU7mokEHVsvAwIQM3oECFQQAA..i&w=1200&h=600&hcb=2&ved=2ahUKEwis0qmMlrqLAxU7mokEHVsvAwIQM3oECFQQAA">Bahamas</a></li>
-     <li><a href="https://www.google.com/imgres?q=northpole&imgurl=https%3A%2F%2Fimages.nationalgeographic.org%2Fimage%2Fupload%2Ft_edhub_resource_key_image%2Fv1638889904%2FEducationHub%2Fphotos%2Fat-the-north-pole.jpg&imgrefurl=https%3A%2F%2Feducation.nationalgeographic.org%2Fresource%2Fnorth-pole%2F&docid=rBAYRM1zYtIa9M&tbnid=tdfhck6mBm8dbM&vet=12ahUKEwjyyPKflrqLAxXSDHkGHWaOAHsQM3oECEsQAA..i&w=860&h=580&hcb=2&ved=2ahUKEwjyyPKflrqLAxXSDHkGHWaOAHsQM3oECEsQAA">North Pole</a></li>
-     <li><a href="https://www.google.com/imgres?q=iceland%20&imgurl=https%3A%2F%2Fcdn.britannica.com%2F71%2F73371-050-9DFAEC1E%2FReykjavik-Iceland.jpg&imgrefurl=https%3A%2F%2Fwww.britannica.com%2Fplace%2FIceland&docid=2XKCJji2smPQgM&tbnid=CfBtyj9hTL8W5M&vet=12ahUKEwjp3oCylrqLAxW4mIkEHb94E4gQM3oECBYQAA..i&w=1600&h=1062&hcb=2&itg=1&ved=2ahUKEwjp3oCylrqLAxW4mIkEHb94E4gQM3oECBYQAA">Iceland</a></li>
-    <li><a href="https://www.google.com/imgres?q=paris&imgurl=https%3A%2F%2Fmedia.timeout.com%2Fimages%2F106181719%2F750%2F562%2Fimage.jpg&imgrefurl=https%3A%2F%2Fwww.timeout.com%2Fparis%2Fen%2Fthings-to-do%2Fbest-things-to-do-in-paris&docid=xUPZGxp5yW_OTM&tbnid=vSBJAovGz66xSM&vet=12ahUKEwiVkcq-lrqLAxX1vokEHU4tDGwQM3oECBoQAA..i&w=750&h=562&hcb=2&ved=2ahUKEwiVkcq-lrqLAxX1vokEHU4tDGwQM3oECBoQAA">Paris</a></li>
-    </ul>
+    <h1>Bake With Avnee</h1>
+    <div class="container">
+        <img src="brownies.jpeg" alt="Baking" width="300">
+        <p>Baking has always been a passion of mine, bringing joy and creativity into my daily life. I love experimenting with different flavors, textures, and decorating techniques. Whether it's a classic chocolate donut or a new twist on an old recipe, there's always something exciting about the process.</p>
+
+        <p>One of my favorite things about baking is the precision it requires. From measuring ingredients to getting the perfect consistency, it’s both a science and an art. I love testing new recipes, tweaking them to my liking, and sometimes, even creating my own.</p>
+
+        <p>Some of my go-to ingredients include high-quality vanilla extract, rich cocoa powder, and fresh seasonal fruits. A great bake is all about balancing flavors, and I love the challenge of creating something that tastes just as amazing as it looks.</p>
+
+        <p>For me, baking is more than just making treats—it's about sharing happiness. Whether it's bringing cupcakes to a family gathering or surprising a friend with homemade cookies, baking connects people in the sweetest way possible!</p>
+
+        <h3>Some Favorite Bakes:</h3>
+        <div class="bakes">
+            <div class="bake-item">
+                <img src="donuts.jpeg" alt="Chocolate Donuts" width="200">
+                <p>Delicious, rich chocolate donuts coated in a glossy chocolate glaze.</p>
+            </div>
+            <div class="bake-item">
+                <img src="vanilla.jpeg" alt="Vanilla Bean Cake" width="200">
+                <p>Fluffy vanilla bean cake with creamy buttercream frosting.</p>
+            </div>
+            <div class="bake-item">
+                <img src="cookies.jpeg" alt="Cookies" width="200">
+                <p>Chewy chocolate chip cookies fresh out of the oven.</p>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
+
